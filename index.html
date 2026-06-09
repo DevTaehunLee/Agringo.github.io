@@ -1,3 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Agringo</title>
+
+<style>
+
+/* CSS 전부 여기 */
+
+body{
+    margin:0;
+    font-family:Arial,sans-serif;
+}
+
+/* 이하 CSS */
+
+</style>
+
+</head>
+
+<body>
+
+<!-- HTML 전부 여기 -->
+
+</body>
+
+</html>
+
+
 <!-- HERO -->
 
 <section class="hero">
@@ -9,98 +43,58 @@
         <h2>The Duolingo of Agriculture</h2>
 
         <p>
-            Learn farming through interactive lessons,
-            complete quests, collect crops,
+            Learn farming through quests, collect crops,
             earn XP, and build your own virtual farm.
         </p>
 
-        <div class="hero-buttons">
-            <a href="#quests" class="primary-btn">Start Farming</a>
-            <a href="#how" class="secondary-btn">Learn More</a>
-        </div>
+        <a href="#xp" class="btn">Start Farming</a>
 
     </div>
 
 </section>
 
-<!-- HOW IT WORKS -->
+<!-- XP SECTION -->
 
-<section id="how">
+<section id="xp">
 
-    <h2 class="section-title">How Agringo Works</h2>
+    <h2 class="section-title">Farmer Progress</h2>
 
-    <div class="card-grid">
+    <div class="progress-card">
 
-        <div class="card">
-            <h3>📚 Learn</h3>
-            <p>Complete short agriculture lessons.</p>
+        <h3>Level 12 Farmer</h3>
+
+        <div class="progress-bar">
+            <div class="progress-fill"></div>
         </div>
 
-        <div class="card">
-            <h3>🎮 Quest</h3>
-            <p>Finish daily and weekly missions.</p>
-        </div>
-
-        <div class="card">
-            <h3>⭐ Earn XP</h3>
-            <p>Level up your farmer profile.</p>
-        </div>
-
-        <div class="card">
-            <h3>🌾 Grow</h3>
-            <p>Expand your virtual farm.</p>
-        </div>
+        <p>2,450 / 3,000 XP</p>
 
     </div>
 
 </section>
 
-<!-- XP SYSTEM -->
+<!-- STREAK SECTION -->
 
 <section>
 
-    <h2 class="section-title">XP Rewards</h2>
+    <h2 class="section-title">🔥 Current Streak</h2>
 
-    <div class="card-grid">
+    <div class="streak-container">
 
-        <div class="card">
-            <h3>Daily Lesson</h3>
-            <h1>+10 XP</h1>
+        <div class="streak-card">
+            <h3>7 Days</h3>
+            <p>Seed Starter</p>
         </div>
 
-        <div class="card">
-            <h3>Quiz Complete</h3>
-            <h1>+30 XP</h1>
+        <div class="streak-card">
+            <h3>30 Days</h3>
+            <p>Soil Expert</p>
         </div>
 
-        <div class="card">
-            <h3>Plant a Seed</h3>
-            <h1>+100 XP</h1>
+        <div class="streak-card">
+            <h3>100 Days</h3>
+            <p>Master Farmer</p>
         </div>
-
-        <div class="card">
-            <h3>Farm Visit</h3>
-            <h1>+500 XP</h1>
-        </div>
-
-    </div>
-
-</section>
-
-<!-- CROP COLLECTION -->
-
-<section>
-
-    <h2 class="section-title">Crop Collection</h2>
-
-    <div class="card-grid">
-
-        <div class="crop-card">🍅 Tomato</div>
-        <div class="crop-card">🌽 Corn</div>
-        <div class="crop-card">🥔 Potato</div>
-        <div class="crop-card">🍓 Strawberry</div>
-        <div class="crop-card">🌾 Rice</div>
-        <div class="crop-card">🥕 Carrot</div>
 
     </div>
 
@@ -108,11 +102,11 @@
 
 <!-- QUESTS -->
 
-<section id="quests">
+<section>
 
     <h2 class="section-title">Today's Quests</h2>
 
-    <div class="card-grid">
+    <div class="grid">
 
         <div class="card">
             <h3>🌱 Learn Soil Basics</h3>
@@ -133,76 +127,55 @@
 
 </section>
 
-<!-- BADGES -->
+<!-- CROP COLLECTION -->
 
 <section>
 
-    <h2 class="section-title">Badges</h2>
+    <h2 class="section-title">Crop Collection</h2>
 
-    <div class="card-grid">
+    <div class="grid">
 
-        <div class="badge">🏅 Seed Starter</div>
-        <div class="badge">🏅 Soil Scientist</div>
-        <div class="badge">🏅 Hydroponics Explorer</div>
-        <div class="badge">🏅 Drone Pilot</div>
-        <div class="badge">🏅 Smart Farmer</div>
+        <div class="crop">🍅 Tomato</div>
+        <div class="crop">🌽 Corn</div>
+        <div class="crop">🥔 Potato</div>
+        <div class="crop">🍓 Strawberry</div>
+        <div class="crop">🥕 Carrot</div>
+        <div class="crop">🌾 Rice</div>
 
     </div>
 
 </section>
 
-<!-- AI ASSISTANT -->
+<!-- LEADERBOARD -->
 
 <section>
 
-    <h2 class="section-title">AI Farm Assistant</h2>
+    <h2 class="section-title">🏆 Leaderboard</h2>
 
-    <div class="card">
+    <div class="leaderboard">
 
-        <h3>🤖 Ask Agringo</h3>
-
-        <p>
-            Why are my tomatoes turning yellow?
-        </p>
-
-        <p>
-            What crops grow best in spring?
-        </p>
-
-        <p>
-            How does hydroponics work?
-        </p>
-
-    </div>
-
-</section>
-
-<!-- IMPACT -->
-
-<section>
-
-    <h2 class="section-title">Impact</h2>
-
-    <div class="card-grid">
-
-        <div class="card">
-            <h1>50K+</h1>
-            <p>Lessons Completed</p>
+        <div class="leader">
+            <span>#1</span>
+            <span>Alex</span>
+            <span>15,240 XP</span>
         </div>
 
-        <div class="card">
-            <h1>10K+</h1>
-            <p>Crops Collected</p>
+        <div class="leader">
+            <span>#2</span>
+            <span>Emma</span>
+            <span>14,920 XP</span>
         </div>
 
-        <div class="card">
-            <h1>2K+</h1>
-            <p>Farm Visits</p>
+        <div class="leader">
+            <span>#3</span>
+            <span>Noah</span>
+            <span>14,100 XP</span>
         </div>
 
-        <div class="card">
-            <h1>1.2K+</h1>
-            <p>Active Farmers</p>
+        <div class="leader highlight">
+            <span>#8</span>
+            <span>You</span>
+            <span>9,850 XP</span>
         </div>
 
     </div>
@@ -215,8 +188,6 @@
 
     <h2>🌱 AGRINGO</h2>
 
-    <p>
-        Learn. Grow. Harvest.
-    </p>
+    <p>Learn. Grow. Harvest.</p>
 
 </footer>
