@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<button onclick="generateQuiz()">
+Generate Quiz
+</button>
+
+<pre id="result"></pre>
+
+<script>
+
+async function generateQuiz(){
+
+    const response = await fetch(
+        "http://localhost:3000/quiz",
+        {
+            method:"POST",
+            headers:{
+                "Content-Type":"application/json"
+            },
+            body:JSON.stringify({
+                topic:"soil"
+            })
+        }
+    );
+
+    const data = await response.text();
+
+    document.getElementById("result").innerText = data;
+}
+
+</script>
+
+</body>
+</html>
